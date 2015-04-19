@@ -64,8 +64,8 @@ use \core\router,
     \helpers\url;
 
 //define routes
-Router::any('', '\controllers\welcome@index');
-Router::any('/subpage', '\controllers\welcome@subpage');
+Router::any('', '\controllers\index@index');
+Router::any('/subpage', '\controllers\index@subpage');
 
 //if no route found
 Router::error('\core\error@index');
