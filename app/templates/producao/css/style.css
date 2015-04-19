@@ -1,1 +1,16 @@
 /* Your styles here */
+#top_menu{
+    background-color: #E5FAFF;
+}
+
+a#buttoom_direito_menu{
+    background-color: #5A4A4A;
+}
+
+.menu-li a:hover,
+.menu-li a:focus {
+    color: #3c9aff;
+    background-color: transparent;
+}
+
+

@@ -65,7 +65,13 @@ use \core\router,
 
 //define routes
 Router::any('', '\controllers\index@index');
-Router::any('/subpage', '\controllers\index@subpage');
+Router::get('consultoria', '\controllers\consultoria@index');
+Router::get('empresa', '\controllers\empresa@index');
+Router::get('cursos', '\controllers\cursos@index');
+Router::get('palestras', '\controllers\palestras@index');
+Router::get('midias', '\controllers\midias@index');
+Router::get('atividades', '\controllers\atividades@index');
+Router::get('parceiros', '\controllers\parceiros@index');
 
 //if no route found
 Router::error('\core\error@index');
