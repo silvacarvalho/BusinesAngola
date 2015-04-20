@@ -1,16 +1,21 @@
 /* Your styles here */
+#container_page{
+    margin-top: 30px;
+}
+
 #top_menu{
-    background-color: #E5FAFF;
+    background-color: #000000;
 }
 
 a#buttoom_direito_menu{
     background-color: #5A4A4A;
 }
 
-.menu-li a:hover,
-.menu-li a:focus {
-    color: #3c9aff;
-    background-color: transparent;
-}
+/*.menu-li a:hover,*/
+/*.menu-li a:focus {*/
+    /*color: #3c9aff;*/
+    /*background-color: transparent;*/
+/*}*/
+
 
 
