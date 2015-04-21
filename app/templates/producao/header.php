@@ -10,6 +10,7 @@
     <?php
     helpers\assets::css(array(
         helpers\url::template_path() . 'css/style.css',
+        helpers\url::template_path() . 'css/dataTable.css',
         helpers\url::template_path() . 'css/bootstrap.css'
     ))
     ?>

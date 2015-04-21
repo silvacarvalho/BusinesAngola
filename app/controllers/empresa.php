@@ -15,7 +15,7 @@ class Empresa extends \core\controller{
         $data['welcome_message'] = $this->language->get('welcome_message');
 
         View::rendertemplate('header', $data);
-        View::render('midias/index', $data);
+        View::render('empresa/index', $data);
         View::rendertemplate('footer', $data);
 	}
 	

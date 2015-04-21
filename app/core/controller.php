@@ -26,7 +26,7 @@ abstract class Controller {
 		
 		//initialise the views object
 		$this->view = new View();
-		
+
 		//initialise the language object
 		$this->language = new Language();
 	}

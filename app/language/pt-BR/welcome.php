@@ -14,6 +14,6 @@ return [
 		Este conteúdo pode ser alterado em: <code>/app/views/index/subpage.php</code>
 	',
     //Button
-    'open_subpage'    => 'Abrir Subpágina',
+    'open_subpage'    => 'Administrador',
     'back_home'       => 'Home',
 ];

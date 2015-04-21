@@ -65,13 +65,14 @@ use \core\router,
 
 //define routes
 Router::any('', '\controllers\index@index');
-Router::get('consultoria', '\controllers\consultoria@index');
-Router::get('empresa', '\controllers\empresa@index');
-Router::get('cursos', '\controllers\cursos@index');
-Router::get('palestras', '\controllers\palestras@index');
-Router::get('midias', '\controllers\midias@index');
-Router::get('atividades', '\controllers\atividades@index');
-Router::get('parceiros', '\controllers\parceiros@index');
+Router::any('consultoria', '\controllers\consultoria@index');
+Router::any('empresa', '\controllers\empresa@index');
+Router::any('cursos', '\controllers\cursos@index');
+Router::any('palestras', '\controllers\palestras@index');
+Router::any('midias', '\controllers\midias@index');
+Router::any('atividades', '\controllers\atividades@index');
+Router::any('parceiros', '\controllers\parceiros@index');
+Router::any('admin', '\controllers\index@admin');
 
 //if no route found
 Router::error('\core\error@index');
